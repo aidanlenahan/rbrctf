@@ -1,0 +1,108 @@
+{
+  "Web Exploitation": [
+    {
+      "name": "SQL Injection 101",
+      "points": 100,
+      "solved": true,
+      "description": "<p>Learn the basics of SQL injection. Can you extract the flag from the database?</p><p><strong>Connection:</strong> <a href=\"http://example.com/sqli\" target=\"_blank\">http://example.com/sqli</a></p><p><strong>Hint:</strong> Try using ' OR '1'='1 in the username field.</p>"
+    },
+    {
+      "name": "XSS Playground",
+      "points": 150,
+      "solved": false,
+      "description": "<p>Find and exploit a Cross-Site Scripting vulnerability to retrieve the flag.</p><p><strong>URL:</strong> <a href=\"http://example.com/xss\" target=\"_blank\">http://example.com/xss</a></p><p>The application has multiple input fields. Can you find which one is vulnerable?</p>"
+    },
+    {
+      "name": "CSRF Token Bypass",
+      "points": 200,
+      "solved": false,
+      "description": "<p>Bypass the CSRF protection to perform unauthorized actions.</p><p><strong>Target:</strong> <a href=\"http://example.com/csrf\" target=\"_blank\">http://example.com/csrf</a></p><p>The application uses CSRF tokens, but there might be a way around them...</p>"
+    },
+    {
+      "name": "API Authentication",
+      "points": 175,
+      "solved": false,
+      "description": "<p>The API endpoint has weak authentication. Can you bypass it?</p><p><strong>API Endpoint:</strong> <code>https://api.example.com/v1/secret</code></p><p>Try analyzing the authentication headers and tokens.</p>"
+    }
+  ],
+  "Cryptography": [
+    {
+      "name": "Caesar Cipher",
+      "points": 50,
+      "solved": true,
+      "description": "<p>Decode this message to reveal the flag:</p><p><code>IODJ{FDHVDU_FLSKHU_LV_HDV}</code></p><p><strong>Hint:</strong> Julius Caesar used this cipher to communicate with his generals.</p>"
+    },
+    {
+      "name": "RSA Basics",
+      "points": 200,
+      "solved": false,
+      "description": "<p>Here are the public key parameters. Can you decrypt the message?</p><p><strong>n:</strong> 91</p><p><strong>e:</strong> 5</p><p><strong>Ciphertext:</strong> 70</p><p>The modulus is suspiciously small... maybe you can factor it?</p>"
+    },
+    {
+      "name": "AES Cracking",
+      "points": 300,
+      "solved": false,
+      "description": "<p>An AES-encrypted file has been intercepted. Can you crack it?</p><p><strong>Download:</strong> <a href=\"#\">encrypted.bin</a></p><p><strong>IV:</strong> <code>f3a4b2c1d9e8a7f6</code></p><p>The key might be weak. Try a dictionary attack.</p>"
+    }
+  ],
+  "Reverse Engineering": [
+    {
+      "name": "Crack Me",
+      "points": 150,
+      "solved": false,
+      "description": "<p>Reverse engineer this binary to find the flag.</p><p><strong>Download:</strong> <a href=\"#\">crackme.exe</a></p><p>The binary asks for a password. Find it without brute forcing!</p>"
+    },
+    {
+      "name": "Binary Analysis",
+      "points": 250,
+      "solved": false,
+      "description": "<p>Analyze this binary and extract the hidden flag.</p><p><strong>Download:</strong> <a href=\"#\">mystery_binary</a></p><p><strong>MD5:</strong> <code>d41d8cd98f00b204e9800998ecf8427e</code></p><p>Look for interesting strings and function calls.</p>"
+    },
+    {
+      "name": "Obfuscated Code",
+      "points": 200,
+      "solved": false,
+      "description": "<p>This Python script is heavily obfuscated. Can you deobfuscate it and find the flag?</p><p><strong>Download:</strong> <a href=\"#\">obfuscated.py</a></p><p>The code uses multiple layers of encoding and encryption.</p>"
+    }
+  ],
+  "Forensics": [
+    {
+      "name": "Hidden Data",
+      "points": 100,
+      "solved": false,
+      "description": "<p>There's something hidden in this image. Can you find it?</p><p><strong>Download:</strong> <a href=\"#\">image.png</a></p><p><strong>Hint:</strong> Sometimes the answer is hidden in plain sight, or maybe at the end...</p>"
+    },
+    {
+      "name": "Memory Dump",
+      "points": 300,
+      "solved": false,
+      "description": "<p>Analyze this memory dump to find the flag.</p><p><strong>Download:</strong> <a href=\"#\">memory.dmp</a> (250 MB)</p><p>Use tools like Volatility to analyze the memory dump.</p>"
+    },
+    {
+      "name": "Network Traffic",
+      "points": 175,
+      "solved": false,
+      "description": "<p>A PCAP file containing suspicious network traffic. Find the flag!</p><p><strong>Download:</strong> <a href=\"#\">capture.pcap</a></p><p>Look for HTTP, DNS, or other unencrypted protocols.</p>"
+    }
+  ],
+  "OSINT": [
+    {
+      "name": "Where Am I?",
+      "points": 75,
+      "solved": true,
+      "description": "<p>Use OSINT techniques to determine the location of this photo.</p><p><img src=\"https://via.placeholder.com/400x300?text=Location+Photo\" class=\"img-fluid\" alt=\"Location\"></p><p>Find the exact coordinates (latitude, longitude) of where this photo was taken.</p>"
+    },
+    {
+      "name": "Social Media Hunt",
+      "points": 125,
+      "solved": false,
+      "description": "<p>Find information about the target using only publicly available social media.</p><p><strong>Target Username:</strong> <code>mystery_user_2026</code></p><p>The flag is hidden in one of their posts from the past year.</p>"
+    },
+    {
+      "name": "Metadata Mystery",
+      "points": 150,
+      "solved": false,
+      "description": "<p>This photo contains metadata that will help you find the flag.</p><p><strong>Download:</strong> <a href=\"#\">photo.jpg</a></p><p>EXIF data can reveal more than you think...</p>"
+    }
+  ]
+}

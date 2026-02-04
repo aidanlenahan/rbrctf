@@ -3,7 +3,7 @@
     {
       "name": "SQL Injection 101",
       "points": 100,
-      "solved": true,
+      "solved": false,
       "description": "<p>Learn the basics of SQL injection. Can you extract the flag from the database?</p><p><strong>Connection:</strong> <a href=\"http://example.com/sqli\" target=\"_blank\">http://example.com/sqli</a></p><p><strong>Hint:</strong> Try using ' OR '1'='1 in the username field.</p>"
     },
     {

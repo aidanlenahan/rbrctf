@@ -1,108 +1,130 @@
 {
-  "Web Exploitation": [
+  "Basic": [
     {
-      "name": "SQL Injection 101",
-      "points": 100,
+      "name": "Welcome",
+      "points": 13,
       "solved": false,
-      "description": "<p>Learn the basics of SQL injection. Can you extract the flag from the database?</p><p><strong>Connection:</strong> <a href=\"http://example.com/sqli\" target=\"_blank\">http://example.com/sqli</a></p><p><strong>Hint:</strong> Try using ' OR '1'='1 in the username field.</p>"
+      "description": "<p>Here's your challenge: <code>SvaqGurSynt!</code></p><p>The flag should be in the format <code>rbr{flag}</code></p>"
     },
     {
-      "name": "XSS Playground",
-      "points": 150,
+      "name": "Declaration of Independence",
+      "points": 5,
       "solved": false,
-      "description": "<p>Find and exploit a Cross-Site Scripting vulnerability to retrieve the flag.</p><p><strong>URL:</strong> <a href=\"http://example.com/xss\" target=\"_blank\">http://example.com/xss</a></p><p>The application has multiple input fields. Can you find which one is vulnerable?</p>"
-    },
-    {
-      "name": "CSRF Token Bypass",
-      "points": 200,
-      "solved": false,
-      "description": "<p>Bypass the CSRF protection to perform unauthorized actions.</p><p><strong>Target:</strong> <a href=\"http://example.com/csrf\" target=\"_blank\">http://example.com/csrf</a></p><p>The application uses CSRF tokens, but there might be a way around them...</p>"
-    },
-    {
-      "name": "API Authentication",
-      "points": 175,
-      "solved": false,
-      "description": "<p>The API endpoint has weak authentication. Can you bypass it?</p><p><strong>API Endpoint:</strong> <code>https://api.example.com/v1/secret</code></p><p>Try analyzing the authentication headers and tokens.</p>"
+      "description": "<p>Not everything is as it seems...</p><p><strong>Download:</strong> <a href=\"https://raw.githubusercontent.com/aidanlenahan/rbrctf/refs/heads/main/Basic/Declaration%20of%20Independence/Declaration_of_Independence.png\" target=\"_blank\">Declaration_of_Independence.png</a></p>"
     }
   ],
-  "Cryptography": [
+  "Chess": [
+    {
+      "name": "THE QUEEN!!!!!",
+      "points": 20,
+      "solved": false,
+      "description": "<p>The challenge is presented to you in the Base 64 string:</p><p><code>MS4gZTQgZTUgMi4gQmM0IEJjNSAzLiBRZjMgTmM2IFdoYXQgbW92ZSBpcyBjaGVja21hdGU/Pz8/Pw==</code></p><p>Once decoded, use the chess moves to find the checkmate move.</p>"
+    }
+  ],
+  "Clue": [
+    {
+      "name": "Salty",
+      "points": 0,
+      "solved": false,
+      "description": "<p>Salt is pretty necessary for cooking... look in the salt container to find your flag.</p><p>You may need access to a Linux terminal to find the flag.</p><p>See the help page on how to download the Clue Game from GitHub.</p><p><strong>Download:</strong> <a href=\"https://github.com/aidanlenahan/rbrctf/tree/main/Clue\" target=\"_blank\">Clue Game</a></p>"
+    }
+  ],
+  "Encoding": [
+    {
+      "name": "ABCDEF",
+      "points": 10,
+      "solved": false,
+      "description": "<p><code>72 62 72 7B 59 6F 75 46 6F 75 6E 64 54 68 65 46 6C 61 67 21 7D</code></p>"
+    },
     {
       "name": "Caesar Cipher",
-      "points": 50,
-      "solved": true,
-      "description": "<p>Decode this message to reveal the flag:</p><p><code>IODJ{FDHVDU_FLSKHU_LV_HDV}</code></p><p><strong>Hint:</strong> Julius Caesar used this cipher to communicate with his generals.</p>"
+      "points": 15,
+      "solved": false,
+      "description": "<p><code>zjz{zwbibmlmqopb}</code></p>"
     },
     {
-      "name": "RSA Basics",
+      "name": "Nested",
+      "points": 25,
+      "solved": false,
+      "description": "<p><code>4D 4A 57 56 4B 32 33 45 49 52 48 47 57 57 42 53 4A 5A 34 57 4B 57 43 43 47 42 52 44 45 5A 44 5A 4C 46 4D 45 45 33 33 46 4B 45 36 54 32 3D 3D 3D</code></p><p><strong>Hint (15 points):</strong> <code>74 6F 20 64 65 63 6F 64 65 20 68 65 78 20 3D 3D 3E 20 62 61 73 65 33 32 20 3D 3D 3E 20 62 61 73 65 36 34</code></p>"
+    },
+    {
+      "name": "Quote",
+      "points": 25,
+      "solved": false,
+      "description": "<p>\"A coward dies a thousand times before his death, but the valiant taste of death but once. It seems to me most strange that men should fear.\" <code>itkhtrbzdrzqbhogdq</code></p><p><strong>Hint (5 points):</strong> Which play is this quote from?</p>"
+    },
+    {
+      "name": "Base 16(x)",
       "points": 200,
       "solved": false,
-      "description": "<p>Here are the public key parameters. Can you decrypt the message?</p><p><strong>n:</strong> 91</p><p><strong>e:</strong> 5</p><p><strong>Ciphertext:</strong> 70</p><p>The modulus is suspiciously small... maybe you can factor it?</p>"
-    },
-    {
-      "name": "AES Cracking",
-      "points": 300,
-      "solved": false,
-      "description": "<p>An AES-encrypted file has been intercepted. Can you crack it?</p><p><strong>Download:</strong> <a href=\"#\">encrypted.bin</a></p><p><strong>IV:</strong> <code>f3a4b2c1d9e8a7f6</code></p><p>The key might be weak. Try a dictionary attack.</p>"
-    }
-  ],
-  "Reverse Engineering": [
-    {
-      "name": "Crack Me",
-      "points": 150,
-      "solved": false,
-      "description": "<p>Reverse engineer this binary to find the flag.</p><p><strong>Download:</strong> <a href=\"#\">crackme.exe</a></p><p>The binary asks for a password. Find it without brute forcing!</p>"
-    },
-    {
-      "name": "Binary Analysis",
-      "points": 250,
-      "solved": false,
-      "description": "<p>Analyze this binary and extract the hidden flag.</p><p><strong>Download:</strong> <a href=\"#\">mystery_binary</a></p><p><strong>MD5:</strong> <code>d41d8cd98f00b204e9800998ecf8427e</code></p><p>Look for interesting strings and function calls.</p>"
-    },
-    {
-      "name": "Obfuscated Code",
-      "points": 200,
-      "solved": false,
-      "description": "<p>This Python script is heavily obfuscated. Can you deobfuscate it and find the flag?</p><p><strong>Download:</strong> <a href=\"#\">obfuscated.py</a></p><p>The code uses multiple layers of encoding and encryption.</p>"
+      "description": "<p><strong>WARNING:</strong> This <a href=\"https://raw.githubusercontent.com/aidanlenahan/rbrctf/refs/heads/main/Encoding/Base%2016(x)/16.txt\" target=\"_blank\">challenge</a> is annoying</p><p><strong>Hint (0 points):</strong> 16 times</p>"
     }
   ],
   "Forensics": [
     {
-      "name": "Hidden Data",
+      "name": "Count",
+      "points": 15,
+      "solved": false,
+      "description": "<p>How many times does the word \"bee\" appear in the <a href=\"https://raw.githubusercontent.com/aidanlenahan/rbrctf/refs/heads/main/Steganography/Search/script.txt\" target=\"_blank\">Bee Movie script</a>?</p><p><strong>Hint (1 point):</strong> Ctrl + F</p>"
+    },
+    {
+      "name": "Search",
+      "points": 15,
+      "solved": false,
+      "description": "<p>Find the flag hidden in the <a href=\"https://raw.githubusercontent.com/aidanlenahan/rbrctf/refs/heads/main/Steganography/Search/script.txt\" target=\"_blank\">Bee Movie script</a>.</p><p>Not all results are the real flag...</p>"
+    },
+    {
+      "name": "Zip Code",
       "points": 100,
       "solved": false,
-      "description": "<p>There's something hidden in this image. Can you find it?</p><p><strong>Download:</strong> <a href=\"#\">image.png</a></p><p><strong>Hint:</strong> Sometimes the answer is hidden in plain sight, or maybe at the end...</p>"
-    },
-    {
-      "name": "Memory Dump",
-      "points": 300,
-      "solved": false,
-      "description": "<p>Analyze this memory dump to find the flag.</p><p><strong>Download:</strong> <a href=\"#\">memory.dmp</a> (250 MB)</p><p>Use tools like Volatility to analyze the memory dump.</p>"
-    },
-    {
-      "name": "Network Traffic",
-      "points": 175,
-      "solved": false,
-      "description": "<p>A PCAP file containing suspicious network traffic. Find the flag!</p><p><strong>Download:</strong> <a href=\"#\">capture.pcap</a></p><p>Look for HTTP, DNS, or other unencrypted protocols.</p>"
+      "description": "<p>Find the zip code of this <a href=\"https://raw.githubusercontent.com/aidanlenahan/rbrctf/refs/heads/main/Forensics/Zip%20Code.png\" target=\"_blank\">picture</a>.</p><p>Flag is in the format <code>rbr{zip code}</code></p>"
     }
   ],
-  "OSINT": [
+  "Linux": [
     {
-      "name": "Where Am I?",
-      "points": 75,
-      "solved": true,
-      "description": "<p>Use OSINT techniques to determine the location of this photo.</p><p><img src=\"https://via.placeholder.com/400x300?text=Location+Photo\" class=\"img-fluid\" alt=\"Location\"></p><p>Find the exact coordinates (latitude, longitude) of where this photo was taken.</p>"
+      "name": "Password",
+      "points": 50,
+      "solved": false,
+      "description": "<p>Find the password to get the flag. To download a file to a Linux server, see <a href=\"https://linux.die.net/man/1/wget\" target=\"_blank\">here</a>.</p><p><strong>Binary:</strong> <a href=\"https://github.com/aidanlenahan/rbrctf/raw/refs/heads/main/Linux/Password/password\" target=\"_blank\">password</a></p><p>After downloading the binary to Linux server, run <code>chmod +x ./password</code> in the same directory for the binary to become executable.</p><p><strong>Hint:</strong> <a href=\"https://www.man7.org/linux/man-pages/man1/strings.1.html\" target=\"_blank\">strings</a></p>"
+    }
+  ],
+  "Website Under Construction": [
+    {
+      "name": "Buttons",
+      "points": 0,
+      "solved": false,
+      "description": "<p>Try to mess around with the buttons on <a href=\"https://aidanlenahan.github.io/rbrctf\" target=\"_blank\">this website</a> under construction.</p>"
     },
     {
-      "name": "Social Media Hunt",
-      "points": 125,
+      "name": "Search",
+      "points": 0,
       "solved": false,
-      "description": "<p>Find information about the target using only publicly available social media.</p><p><strong>Target Username:</strong> <code>mystery_user_2026</code></p><p>The flag is hidden in one of their posts from the past year.</p>"
+      "description": "<p>Try <strong>searching</strong> for this flag. Not all parts of <a href=\"https://aidanlenahan.github.io/rbrctf\" target=\"_blank\">this website</a> work, so maybe there are some parts of the website that are not implemented.</p><p><strong>Hint (10 pts):</strong> Search Bar</p>"
     },
     {
-      "name": "Metadata Mystery",
-      "points": 150,
+      "name": "Pattern In Paragraph",
+      "points": 0,
       "solved": false,
-      "description": "<p>This photo contains metadata that will help you find the flag.</p><p><strong>Download:</strong> <a href=\"#\">photo.jpg</a></p><p>EXIF data can reveal more than you think...</p>"
+      "description": "<p>Look closely at the paragraphs on <a href=\"https://aidanlenahan.github.io/rbrctf/elements.html\" target=\"_blank\">this</a> page.</p><p>There should be a pattern in a few certain words...</p>"
+    },
+    {
+      "name": "Metadata",
+      "points": 0,
+      "solved": false,
+      "description": "<p>Take a look at a few of the images on the <a href=\"https://aidanlenahan.github.io/rbrctf\" target=\"_blank\">website</a>. Maybe you can find the flag using one of the images...</p>"
+    },
+    {
+      "name": "404",
+      "points": 0,
+      "solved": false,
+      "description": "<p>Which page shows up when you try accessing a page that doesn't exist?</p><p><a href=\"https://aidanlenahan.github.io/rbrctf/\" target=\"_blank\">https://aidanlenahan.github.io/rbrctf/</a></p>"
+    },
+    {
+      "name": "403",
+      "points": 0,
+      "solved": false,
+      "description": "<p>Why do I get a 403 error when trying to access <a href=\"https://aidanlenahan.github.io/rbrctf/postlogin.html\" target=\"_blank\">this page?</a> If only there was a way...</p>"
     }
   ]
 }

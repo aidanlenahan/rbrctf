@@ -1,0 +1,12 @@
+#header .rbr-ctf-button {
+    background-color: #800000 !important;
+    border-color: #800000 !important;
+    padding: 0.3em 0.6em !important;
+    font-size: 0.8em !important;
+    display: inline-block !important;
+    min-width: auto !important;
+    width: auto !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    white-space: nowrap !important;
+}

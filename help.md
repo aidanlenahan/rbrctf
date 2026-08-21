@@ -27,6 +27,7 @@ Hello! Welcome to RBR CTF (capture-the-flag) challenge! For each challenge, you 
 - [Hexedit online](https://hexed.it) - Online hex editor
 - [Wireshark](https://www.wireshark.org/) - GUI network sniffer/analyzer
 - [EXIF metadata viewer](https://www.metadata2go.com/view-metadata) - can be used to see the metadata of photo, including location or date
+- [Metadata Remover](https://metadataremover.ai/metadata-viewer) - Browser-local image metadata viewer; corroborate metadata before treating it as evidence
 ##### Linux CLI
 - [exiftool](https://exiftool.org/) - Linux CLI image metadata tool
 - [binwalk](https://gist.github.com/briankip/8f8747a2488af827e3b4) - Linux CLI embedded files extractor from binary files

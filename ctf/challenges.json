@@ -94,37 +94,37 @@
       "name": "Buttons",
       "points": 0,
       "solved": false,
-      "description": "<p>Try to mess around with the buttons on <a href=\"https://aidanlenahan.github.io/rbrctf\" target=\"_blank\">this website</a> under construction.</p>"
+      "description": "<p>Try to mess around with the buttons on <a href=\"https://rbrctf.alenahan.net\" target=\"_blank\">this website</a> under construction.</p>"
     },
     {
       "name": "Search",
       "points": 0,
       "solved": false,
-      "description": "<p>Try <strong>searching</strong> for this flag. Not all parts of <a href=\"https://aidanlenahan.github.io/rbrctf\" target=\"_blank\">this website</a> work, so maybe there are some parts of the website that are not implemented.</p><p><strong>Hint (10 pts):</strong> Search Bar</p>"
+      "description": "<p>Try <strong>searching</strong> for this flag. Not all parts of <a href=\"https://rbrctf.alenahan.net\" target=\"_blank\">this website</a> work, so maybe there are some parts of the website that are not implemented.</p><p><strong>Hint (10 pts):</strong> Search Bar</p>"
     },
     {
       "name": "Pattern In Paragraph",
       "points": 0,
       "solved": false,
-      "description": "<p>Look closely at the paragraphs on <a href=\"https://aidanlenahan.github.io/rbrctf/elements.html\" target=\"_blank\">this</a> page.</p><p>There should be a pattern in a few certain words...</p>"
+      "description": "<p>Look closely at the paragraphs on <a href=\"https://rbrctf.alenahan.net/elements.html\" target=\"_blank\">this</a> page.</p><p>There should be a pattern in a few certain words...</p>"
     },
     {
       "name": "Metadata",
       "points": 0,
       "solved": false,
-      "description": "<p>Take a look at a few of the images on the <a href=\"https://aidanlenahan.github.io/rbrctf\" target=\"_blank\">website</a>. Maybe you can find the flag using one of the images...</p>"
+      "description": "<p>Take a look at a few of the images on the <a href=\"https://rbrctf.alenahan.net\" target=\"_blank\">website</a>. Maybe you can find the flag using one of the images...</p>"
     },
     {
       "name": "404",
       "points": 0,
       "solved": false,
-      "description": "<p>Which page shows up when you try accessing a page that doesn't exist?</p><p><a href=\"https://aidanlenahan.github.io/rbrctf/\" target=\"_blank\">https://aidanlenahan.github.io/rbrctf/</a></p>"
+      "description": "<p>Which page shows up when you try accessing a page that doesn't exist?</p><p><a href=\"https://rbrctf.alenahan.net/\" target=\"_blank\">https://rbrctf.alenahan.net/</a></p>"
     },
     {
       "name": "403",
       "points": 0,
       "solved": false,
-      "description": "<p>Why do I get a 403 error when trying to access <a href=\"https://aidanlenahan.github.io/rbrctf/postlogin.html\" target=\"_blank\">this page?</a> If only there was a way...</p>"
+      "description": "<p>Why do I get a 403 error when trying to access <a href=\"https://rbrctf.alenahan.net/postlogin.html\" target=\"_blank\">this page?</a> If only there was a way...</p>"
     }
   ]
 }
